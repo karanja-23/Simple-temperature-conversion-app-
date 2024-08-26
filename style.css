@@ -1,0 +1,51 @@
+#my-container{
+    background-color: rgb(133, 167, 149);
+    width: 65vh;
+    height: 80vh;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 23px;
+}
+h2{
+    padding-top: 8px;
+    margin-bottom: 0;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(62, 53, 53);
+}
+hr{
+    background-color: rgb(62, 53, 53);
+    height: 3px;
+    
+}
+input{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+label{
+    font-weight: bold;
+    color: rgb(62, 53, 53);
+    margin-right: 5px;
+}
+#toFarenheight ,#toCelcius{
+    margin-top: 5px;
+}
+#mySubmit{
+    margin-top: 10px;
+    font-size: medium;
+    background-color: azure;
+    border-radius: 4px;
+    color: rgb(62, 53, 53);
+    font-weight: bolder;
+    cursor: pointer;
+}
+#mySubmit:hover{
+    background-color: rgb(142, 151, 151);
+    color: black;
+}
+#result{
+    font-weight: bold;
+    font-size: 1.7em;
+}
