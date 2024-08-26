@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>my website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="my-container">
+        <h2>Temperature conversion app</h2><hr>
+        <label for="my-input">Temperature:</label>
+        <input id="my-input" type="number" value="0"><br>
+
+        <input type="radio" name="units" id="toFarenheight">
+        <label for="toFarenheight">Celcius → Farenheight</label><br>
+
+        <input type="radio" name="units" id="toCelcius">
+        <label for="toCelcius">Farenheight → Celcius</label><br>
+
+        <button id="mySubmit" onclick="convert()">Submit</button>
+
+        <p id ="result"></p>
+
+    </div>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
