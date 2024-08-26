@@ -15,6 +15,7 @@ function convert(){
     myResult.textContent = `${temp}°F `;
 }
 else if(toCelcius.checked){
+  temp  = Number(myTemp.value);
   temp =(temp-32) * 5/9;
   myResult.textContent = `${temp}°C `;
 }
